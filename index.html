@@ -2,47 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Web Page</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f2f4f7;
-      margin: 0;
-      padding: 20px;
-      text-align: center;
-    }
-
-    h1 {
-      color: #2a73cc;
-    }
-
-    p {
-      font-size: 18px;
-      color: #333;
-    }
-
-    button {
-      background-color: #2a73cc;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 8px;
-      cursor: pointer;
-      font-size: 16px;
-    }
-
-    button:hover {
-      background-color: #1c57a5;
-    }
-  </style>
+  <title>Google Link Example</title>
 </head>
 <body>
-
-  <h1>Welcome to My First Web Page!</h1>
-  <p>This is a simple example of an HTML page with inline CSS.</p>
+  <h1>Google HTML Tag Examples</h1>
   
-  <button onclick="alert('Hello Naveen! 👋')">Click Me</button>
+  <!-- Simple link -->
+  <p><a href="https://www.google.com" target="_blank">Go to Google</a></p>
 
+  <!-- Logo link -->
+  <p>
+    <a href="https://www.google.com" target="_blank">
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
+           alt="Google Logo" width="150">
+    </a>
+  </p>
+
+  <!-- Search form -->
+  <form action="https://www.google.com/search" method="get" target="_blank">
+    <input type="text" name="q" placeholder="Search Google...">
+    <button type="submit">Search</button>
+  </form>
 </body>
 </html>
